@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestnestedTableViews", "TestnestedTableViews\TestnestedTableViews.csproj", "{D170B125-D29C-411F-A502-572C9A255F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Release|iPhone.Build.0 = Release|iPhone
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D170B125-D29C-411F-A502-572C9A255F9B}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

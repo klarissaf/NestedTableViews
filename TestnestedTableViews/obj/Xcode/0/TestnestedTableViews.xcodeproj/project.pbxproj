@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B4C8B50000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6E1F100000000000000000 /* UIKit.framework */; };
+		AAF980A90000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321B99E50000000000000000 /* MapKit.framework */; };
+		974249B60000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6462F20000000000000000 /* Foundation.framework */; };
+		838B12C30000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD2BFF00000000000000000 /* CoreGraphics.framework */; };
+		605EF7C10000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78110FD0000000000000000 /* Assets.xcassets */; };
+		8B0EDF800000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD307340000000000000000 /* LaunchScreen.storyboard */; };
+		487E0ADC0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA024180000000000000000 /* Main.storyboard */; };
+		B24C32B80000000000000000 /* MyTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396E4BF40000000000000000 /* MyTransactionTableViewCell.xib */; };
+		CE090B380000000000000000 /* MyTransactionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552B24740000000000000000 /* MyTransactionHeaderCell.xib */; };
+		96418FE10000000000000000 /* MyTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D63A91D0000000000000000 /* MyTransactionCell.xib */; };
+		BEF94C500000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 461B658C0000000000000000 /* Info.plist */; };
+		69601D800000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F08236BC0000000000000000 /* Entitlements.plist */; };
+		3FDCD4A10000000000000000 /* MyTransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEEDDD0000000000000000 /* MyTransactionCell.m */; };
+		D47793E50000000000000000 /* MyTransactionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99AD210000000000000000 /* MyTransactionHeaderCell.m */; };
+		D3AC07750000000000000000 /* MyTransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE20B10000000000000000 /* MyTransactionTableViewCell.m */; };
+		732CCFAF0000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE8EB0000000000000000 /* ViewController.m */; };
+		99CFB1250000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F1CA610000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D9B8B190000000000000000 /* TestnestedTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "TestnestedTableViews.app"; path = "TestnestedTableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6E1F100000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		321B99E50000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1E6462F20000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		AAD2BFF00000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		E78110FD0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		8FD307340000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		CFA024180000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		396E4BF40000000000000000 /* MyTransactionTableViewCell.xib */ = {isa = PBXFileReference; name = "MyTransactionTableViewCell.xib"; path = "UI/Transactions/MyTransactionTableViewCell.xib"; sourceTree = "<group>"; };
+		552B24740000000000000000 /* MyTransactionHeaderCell.xib */ = {isa = PBXFileReference; name = "MyTransactionHeaderCell.xib"; path = "UI/Transactions/MyTransactionHeaderCell.xib"; sourceTree = "<group>"; };
+		1D63A91D0000000000000000 /* MyTransactionCell.xib */ = {isa = PBXFileReference; name = "MyTransactionCell.xib"; path = "UI/Transactions/MyTransactionCell.xib"; sourceTree = "<group>"; };
+		461B658C0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		F08236BC0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		41F1AF9A0000000000000000 /* MyTransactionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyTransactionCell.h"; path = "MyTransactionCell.h"; sourceTree = "<group>"; };
+		C6FEEDDD0000000000000000 /* MyTransactionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyTransactionCell.m"; path = "MyTransactionCell.m"; sourceTree = "<group>"; };
+		DBFF73590000000000000000 /* MyTransactionHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyTransactionHeaderCell.h"; path = "MyTransactionHeaderCell.h"; sourceTree = "<group>"; };
+		5B99AD210000000000000000 /* MyTransactionHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyTransactionHeaderCell.m"; path = "MyTransactionHeaderCell.m"; sourceTree = "<group>"; };
+		FB1A755B0000000000000000 /* MyTransactionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyTransactionTableViewCell.h"; path = "MyTransactionTableViewCell.h"; sourceTree = "<group>"; };
+		5ACE20B10000000000000000 /* MyTransactionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyTransactionTableViewCell.m"; path = "MyTransactionTableViewCell.m"; sourceTree = "<group>"; };
+		2A8E84CE0000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		FA4EE8EB0000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		8DA059A60000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		20F1CA610000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F16B600000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B4C8B50000000000000000 /* UIKit.framework in Frameworks */,
+				AAF980A90000000000000000 /* MapKit.framework in Frameworks */,
+				974249B60000000000000000 /* Foundation.framework in Frameworks */,
+				838B12C30000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771ED3F80000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				D37455CC0000000000000000 /* TestnestedTableViews */,
+				D0162C4A0000000000000000 /* Frameworks */,
+				A54994E20000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54994E20000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B8B190000000000000000 /* TestnestedTableViews.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		D0162C4A0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED6E1F100000000000000000 /* UIKit.framework */,
+				321B99E50000000000000000 /* MapKit.framework */,
+				1E6462F20000000000000000 /* Foundation.framework */,
+				AAD2BFF00000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D37455CC0000000000000000 /* TestnestedTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				8DA059A60000000000000000 /* AppDelegate.h */,
+				20F1CA610000000000000000 /* AppDelegate.m */,
+				E78110FD0000000000000000 /* Assets.xcassets */,
+				F08236BC0000000000000000 /* Entitlements.plist */,
+				461B658C0000000000000000 /* Info.plist */,
+				8FD307340000000000000000 /* LaunchScreen.storyboard */,
+				CFA024180000000000000000 /* Main.storyboard */,
+				41F1AF9A0000000000000000 /* MyTransactionCell.h */,
+				C6FEEDDD0000000000000000 /* MyTransactionCell.m */,
+				DBFF73590000000000000000 /* MyTransactionHeaderCell.h */,
+				5B99AD210000000000000000 /* MyTransactionHeaderCell.m */,
+				FB1A755B0000000000000000 /* MyTransactionTableViewCell.h */,
+				5ACE20B10000000000000000 /* MyTransactionTableViewCell.m */,
+				2A8E84CE0000000000000000 /* ViewController.h */,
+				FA4EE8EB0000000000000000 /* ViewController.m */,
+				80C3484C0000000000000000 /* UI */,
+			);
+			name = "TestnestedTableViews";
+			sourceTree = "<group>";
+		};
+		80C3484C0000000000000000 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1987BD820000000000000000 /* Transactions */,
+			);
+			name = "UI";
+			sourceTree = "<group>";
+		};
+		1987BD820000000000000000 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				1D63A91D0000000000000000 /* MyTransactionCell.xib */,
+				552B24740000000000000000 /* MyTransactionHeaderCell.xib */,
+				396E4BF40000000000000000 /* MyTransactionTableViewCell.xib */,
+			);
+			name = "Transactions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D68A7FD0000000000000000 /* TestnestedTableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8353F650000000000000000 /* Build configuration list for PBXNativeTarget "TestnestedTableViews" */;
+			buildPhases = (
+				5DF4988A0000000000000000 /* Sources */,
+				19F16B600000000000000000 /* Frameworks */,
+				6C38CB020000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestnestedTableViews";
+			productName = "TestnestedTableViews";
+			productReference = 4D9B8B190000000000000000 /* TestnestedTableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CAE2980000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 5F3DE7130000000000000000 /* Build configuration list for PBXProject "TestnestedTableViews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 771ED3F80000000000000000;
+			productRefGroup = A54994E20000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D68A7FD0000000000000000 /* TestnestedTableViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C38CB020000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605EF7C10000000000000000 /* Assets.xcassets in Resources */,
+				8B0EDF800000000000000000 /* LaunchScreen.storyboard in Resources */,
+				487E0ADC0000000000000000 /* Main.storyboard in Resources */,
+				B24C32B80000000000000000 /* MyTransactionTableViewCell.xib in Resources */,
+				CE090B380000000000000000 /* MyTransactionHeaderCell.xib in Resources */,
+				96418FE10000000000000000 /* MyTransactionCell.xib in Resources */,
+				BEF94C500000000000000000 /* Info.plist in Resources */,
+				69601D800000000000000000 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF4988A0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCD4A10000000000000000 /* MyTransactionCell.m in Sources */,
+				D47793E50000000000000000 /* MyTransactionHeaderCell.m in Sources */,
+				D3AC07750000000000000000 /* MyTransactionTableViewCell.m in Sources */,
+				732CCFAF0000000000000000 /* ViewController.m in Sources */,
+				99CFB1250000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AFFC1AB0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98497B500000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1843A49C0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.development.Test-nested-TableViews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EBEE6100000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.development.Test-nested-TableViews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3DE7130000000000000000 /* Build configuration list for PBXProject "TestnestedTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFC1AB0000000000000000 /* Debug */,
+				98497B500000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8353F650000000000000000 /* Build configuration list for PBXNativeTarget "TestnestedTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1843A49C0000000000000000 /* Debug */,
+				8EBEE6100000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CAE2980000000000000000 /* Project object */;
+}

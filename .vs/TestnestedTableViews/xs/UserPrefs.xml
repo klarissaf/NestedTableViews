@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D170B125-D29C-411F-A502-572C9A255F9B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestnestedTableViews/UI/Transactions/MyTransactionTableViewCell.cs">
+    <Files>
+      <File FileName="TestnestedTableViews/ViewController.cs" Line="196" Column="1" />
+      <File FileName="TestnestedTableViews/UI/Transactions/MyTransactionTableViewCell.cs" Line="17" Column="1" />
+      <File FileName="TestnestedTableViews/UI/Transactions/MyTransactionHeaderCell.cs" Line="22" Column="13" />
+      <File FileName="TestnestedTableViews/UI/Transactions/MyTransactionCell.cs" Line="11" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/UI/Transactions/MyTransactionTableViewCell.cs" relfile="TestnestedTableViews/UI/Transactions/MyTransactionTableViewCell.cs" line="17" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/UI/Transactions/MyTransactionHeaderCell.cs" relfile="TestnestedTableViews/UI/Transactions/MyTransactionHeaderCell.cs" line="45" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/ViewController.cs" relfile="TestnestedTableViews/ViewController.cs" line="179" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/ViewController.cs" relfile="TestnestedTableViews/ViewController.cs" line="160" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/ViewController.cs" relfile="TestnestedTableViews/ViewController.cs" line="152" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/ViewController.cs" relfile="TestnestedTableViews/ViewController.cs" line="135" column="1" />
+      <Breakpoint file="/Users/klarissa/Development/TestnestedTableViews/TestnestedTableViews/ViewController.cs" relfile="TestnestedTableViews/ViewController.cs" line="163" column="110" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestnestedTableViews PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C5D220F4-9CE7-4DEB-AAEF-8B5030DBF5F7">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TestnestedTableViews>
+</Properties>
